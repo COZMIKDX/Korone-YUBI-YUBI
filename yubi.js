@@ -4,15 +4,15 @@ let main_elem = document.getElementById("main");
 
 
 let audioFiles = [
-    "https://cdn.discordapp.com/attachments/390737035792482314/1013554607508705300/korone_i_am_crazy.ogg",
-    "https://cdn.discordapp.com/attachments/390737035792482314/1013554607814877315/korone_scream_1.ogg",
-    "https://cdn.discordapp.com/attachments/390737035792482314/1013554608553066617/korone_scream_2_soap.ogg",
-    "https://cdn.discordapp.com/attachments/390737035792482314/1013550185839874118/korone_yubi_yubi.ogg"
+    "./assets/audio/korone_i_am_crazy.ogg",
+    "./assets/audio/korone_scream_1.ogg",
+    "./assets/audio/korone_scream_2_soap.ogg",
+    "./assets/audio/korone_yubi_yubi.ogg"
 ];
 
 let backgrounds = {
-    idle: "https://cdn.donmai.us/original/bf/0b/__inugami_korone_hololive_drawn_by_seramikku__bf0b36601ac6af49e9168ac5de700546.png",
-    speaking: "https://cdn.donmai.us/original/46/23/__inugami_korone_hololive_drawn_by_seramikku__4623e4472ec412793b21757ac2ff60ea.jpg"
+    idle:     "./assets/images/korone_idle.png",
+    speaking: "./assets/images/korone_speaking.jpg"
 }
 
 function randomize_sound() {
