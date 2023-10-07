@@ -28,8 +28,6 @@ function idle_bg() {
 }
 
 function speak_bg() {
-    // I stuck grabbing the main element here because I was having some loading problems.
-    
     main_elem.style.backgroundImage =`url(${backgrounds.speaking})`
     console.log("yubi speak");
 }
